@@ -68,6 +68,13 @@ img.my_foto{height:139px;width:250px;margin-left:-25px;}
 span.second{margin-left:10px;font-family: "OpenSansRegular"}
 div.main-info-b{width:420px;margin-left:230px;}
 ul.main_inform{padding:0px;margin-top:0;}
+div.kolbaski{display: inline-block;height:30px;margin-left:145px;margin-top:-17px;}
+div.kolbasa{display:inline-block;height: 19px;position:relative;float:left;margin:0 8px 8px 0;}
+img.kolbasa1{position: absolute;left:0px;z-index:1;}
+img.kolbasa3{position: absolute;right:0px;z-index:1;}
+div.inner_kolbasa{background:url(kolbasa2.png)repeat-x;z-index:3;margin:0 7px 0 15px;padding:0 4px;height:19px;line-height: 1.7;}
+p.kolbas{text-align:center;position:relative;margin-left:15px;margin-right:15px;font-size:10px;margin:0;color:#1e7465;}
+
 
 
 
