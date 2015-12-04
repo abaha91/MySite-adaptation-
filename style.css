@@ -168,4 +168,22 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
 
 
 
-
+/*Страница с портфолио*/
+.all_my_works{width:610px;display:table;margin:0 auto;}
+.my_work{vertical-align:top;border-radius:5px;margin:0 17px 17px 17px;width:167px;min-height:122px;border:1px solid #c7c7c7;display:inline-block;-webkit-box-shadow: 0px 0px 1px 1px rgba(212,211,211,1);
+-moz-box-shadow: 0px 0px 1px 1px rgba(212,211,211,1);
+box-shadow: 0px 0px 1px 1px rgba(212,211,211,1);}
+.my_work_img{position:relative;overflow:hidden;height:122px;border-radius:5px 5px 0 0;}
+.my_work_title{border-top: 1px solid #c7c7c7;padding-bottom:6px;min-height:28px;background-color:#f2f2f2;padding-top:6px;text-align:center;}
+.my_work_review{padding:6px 8px 6px 8px;text-align:center;}
+.work-image{width:100%;border-radius:5px 5px 0 0;min-height:122px;border-radius:5px 5px 0 0;}
+.sait_link{width:150px;font-size:14px;text-decoration: none;color:#727070;text-align: center;height:100%;}
+.review_text{font-size:12px;color:#727070;font-family:"OpenSansLight";}
+.img-link{display:block;position:absolute;height:100%;width:100%;z-index:1;-webkit-transition:all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;}
+.img-link:hover{opacity:0.1;}
+.hover{background:#57caae;position:absolute;height:100%;width:100%;z-index:0;display:table;border-radius:5px 5px 0 0;}
+.hover-block-link{border:2px solid white;border-radius:5px;min-width:80%;max-width:90%;color:#fff;padding:5px;display: inline-block;}
+.table-cell{display:table-cell;vertical-align:middle;text-align:center;}
