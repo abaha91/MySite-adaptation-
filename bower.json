@@ -1,5 +1,6 @@
 {
-  "name": "Project1",
+  "name": "project1",
+  "homepage": "https://github.com/abaha91/Project1",
   "authors": [
     "Gennady Abashkin <abashkin.91@mail.ru>"
   ],
@@ -7,7 +8,6 @@
   "main": "",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -16,6 +16,9 @@
     "tests"
   ],
   "dependencies": {
+    "jquery.placeholder": "~0.2.4",
+    "html5shiv": "~3.7.3",
+    "jquery": "~2.1.4",
     "normalize-css": "normalize.css#~3.0.3"
   }
 }

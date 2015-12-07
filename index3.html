@@ -6,7 +6,16 @@
 	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
 	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="third-page.css">
+    <link rel="icon" type="image/png" href="logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="logo.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="logo.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="logo.png" sizes="16x16">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery.placeholder/jquery.placeholder.js"></script>
+
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
 	</script>
@@ -58,18 +67,18 @@
         	<!--Форма-->
 
         	   <div class="info-block">
-        	   	<div class="main-info-title"><span class="mt-span">Мои работы</span></div>
+        	   	<div class="main-info-title"><span class="mt-span">У вас интересный проект? Напишите мне</span></div>
         	   	<div class="main-info-body">
 
                 <div class="form">
                     <form action="">
-                        <input type="text" class="name" placeholder="Как к вам обращатся?">
-                        <input type="text" class="email" placeholder="Куда мне писать?">
+                        <label><input type="text" class="name" placeholder="Как к вам обращатся?"></label>
+                        <div><input type="text" class="email" placeholder="Куда мне писать?"></div>
                         
                         <textarea name="" id="" cols="30" rows="10" class="textarea" class="message" placeholder="Кратко в чем суть"></textarea>
                         <input type="text" class="capcha-input" placeholder="Введите код">
                         <input type="submit" class="submit" value="Отправить"/>
-                        <input type="reset" value="Отчистить" class="clear" />
+                        <input type="reset" value="Очистить" class="clear" />
                         <span class="form-name-span">Имя</span>
                         <span class="form-email-span">Email</span>
                         <span class="form-message-span">Сообщение</span>
