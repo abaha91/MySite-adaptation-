@@ -1,6 +1,7 @@
 Как установить мой проект
-git clone https://github.com/BovdyrSergiy/dz1_BovdyrSergiy.git site
+git clone https://github.com/abaha91/Project1.git site
 cd site
 bower i
 npm i
 gulp
+
