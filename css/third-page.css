@@ -10,11 +10,42 @@
 .textarea{color:#c7c6c6;font-family:"OpenSansLight";top:115px;width:399px;height:185px;background-color:inherit;border-radius:5px;border:1px solid #d6d5d3;padding-left:10px;}
 .form-capcha-span{top:320px;font-family:"OpenSansRegular";color:#727070;}
 .capcha{top:350px;border-radius:5px;border:1px solid #d6d5d3;}
-.submit{top:460px;left:28px;width:122px;height:39px;color:#1e7465;background:url(submit_bg.jpg) repeat-x;border-radius:5px;border:1px solid #d6d5d3;}
-.submit:hover{background:url(submit_bg_hover.jpg) repeat-x;}
-.clear{text-align:center;top:460px;left:250px;width:122px;height:39px;color:#727070;border-radius: 5px;background:inherit;border:1px solid #d6d5d3;font-family: "OpenSansSemiBold";background:url(clear-bg.jpg) repeat-x;}
-.clear:hover{background:url(clear-bg-hover.jpg) repeat-x;}
+.submit{top:460px;left:28px;width:122px;height:39px;color:#1e7465;background:url(/images/submit_bg.jpg) repeat-x;border-radius:5px;border:1px solid #d6d5d3;}
+.submit:hover{background:url(/images/submit_bg_hover.jpg) repeat-x;}
+.clear{text-align:center;top:460px;left:250px;width:122px;height:39px;color:#727070;border-radius: 5px;background:inherit;border:1px solid #d6d5d3;font-family: "OpenSansSemiBold";background:url(/images/clear-bg.jpg) repeat-x;}
+.clear:hover{background:url(/images/clear-bg-hover.jpg) repeat-x;}
 .capcha-input{color:#c7c6c6;font-family:"OpenSansLight";padding-left:10px;width:192px;height:32px;border-radius:5px;top:368px;left:209px;background: inherit;border:1px solid #d6d5d3;}
 .capcha-input, .name, .email, .textarea{-webkit-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 -moz-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}
+
+
+/*Общие стили для формы*/
+::-webkit-input-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+}
+::-moz-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+}
+:-moz-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+}
+:-ms-input-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+}
+:focus::-webkit-input-placeholder {
+	color: transparent
+}
+:focus::-moz-placeholder {
+	color: transparent
+}
+:focus:-moz-placeholder {
+	color: transparent
+}
+:focus:-ms-input-placeholder {
+	color: transparent
+}
