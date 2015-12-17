@@ -5,6 +5,7 @@ var myModule = (function() {
 	};
 	
 	var _setUpListners = function() {
+<<<<<<< HEAD
 		$("#new-project-add").on("click", _showModal);//подключение модального окна
 		$(".project_but").on("click", _submitBut);//кнопка отправить
 		
@@ -49,6 +50,10 @@ var myModule = (function() {
 
 
 	};
+=======
+		
+	}
+>>>>>>> 53492b158bfa2e296e5654c5371efa5fc986948a
 	
 	return {
 		init: init

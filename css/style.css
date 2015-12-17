@@ -62,7 +62,11 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
 /*Основные блоки*/
 .mt-span{margin-left:44px;line-height:2.4;}
 .main-info-body{border:1px solid #bebebe;padding-bottom:30px;height:100%;background:#f7f6f5;border-radius:0 0 4px 4px;display:table;padding-top:29px;width:100%;font-size:14px;}
+<<<<<<< HEAD
 .main-info-title{width:100%;border-left:1px solid #757575; border-right:1px solid #757575;min-height:56px;border-radius:4px 4px 0 0;background:url(../images/grey_bg.png) repeat-x;font-size:22px;color:#eeedec;}
+=======
+.main-info-title{background-repeat:repeat-x;width:100%;border-left:1px solid #757575; border-right:1px solid #757575;height:56px;border-radius:4px 4px 0 0;/*background-color:#989696*/;background:url(../images/grey_bg.png) repeat-x;font-size:22px;color:#eeedec;}
+>>>>>>> 53492b158bfa2e296e5654c5371efa5fc986948a
 .top-space{margin-top:35px;}
 
 
