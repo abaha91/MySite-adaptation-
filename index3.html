@@ -2,15 +2,16 @@
 <html lang="ru-RU">
 <head>
 	<meta charset="UTF-8">
-	<title>New site</title>
+	<title>Front-end</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-	<link rel="stylesheet" href="fonts.css">
-	<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="third-page.css">
-    <link rel="icon" type="image/png" href="logo.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="logo.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="logo.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="logo.png" sizes="16x16">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/third-page.css">
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="16x16">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -29,7 +30,7 @@
         <div class="header_box">
         	<header class="head clearfix">
         	   <div class="logo">
-        	   	   <a href="/"><img src="logo.png" alt="#" /></a>
+        	   	   <a href=""><img src="images/logo.png" alt="#" /></a>
         	   </div>
         	   <div class="soc-nets">
                    <ul class="nets">
@@ -45,9 +46,9 @@
         </div>
         <main class="content">
            <section class="left-content">
-        	<nav class="left-menu">
+        	<nav class="main-menu">
         	   <ul class="left-m">
-        	   	   <li class="left-m-li"><a class="left-m-a" href="/"><span class="left-m-span">Обо мне</span></a></li>
+        	   	   <li class="left-m-li"><a class="left-m-a" href=""><span class="left-m-span">Обо мне</span></a></li>
         	   	   <li class="left-m-li"><a class="left-m-a" href="index2.html"><span class="left-m-span">Мои работы</span></a></li>
         	   	   <li class="active"><a class="left-m-a" href="index3.html"><span class="left-m-span">Обратная связь</span></a></li>
         	   </ul>
@@ -56,9 +57,9 @@
         	<div class="contacts">
         	<div class="contacts-title"><span class="cont-span">Контакты</span></div>
         		<ul class="contacts-ul">
-        			<li class="contacts-li"><a class="contacts-a" href="mailto:abashkin.91@mail.ru"><img src="orange-mail.png" alt="email" class="contimg"><span class="contacts-span">abashkin.91@mail.ru</span></a></li>
-        			<li class="contacts-li"><a class="contacts-a" href="tel:+79110854304"><img src="orange-phone.png" alt="email" class="contimg"><span class="contacts-span">89110854304</span></a></li>
-        			<li class="contacts-li"><a class="contacts-a" href="skype:keni__1?chat"><img src="orange-skype.png" alt="email" class="contimg"><span class="contacts-span">keni__1</span></a></li>
+        			<li class="contacts-li"><a class="contacts-a" href="mailto:abashkin.91@mail.ru"><img src="images/orange-mail.png" alt="email" class="contimg"><span class="contacts-span">abashkin.91@mail.ru</span></a></li>
+        			<li class="contacts-li"><a class="contacts-a" href="tel:+79110854304"><img src="images/orange-phone.png" alt="email" class="contimg"><span class="contacts-span">89110854304</span></a></li>
+        			<li class="contacts-li"><a class="contacts-a" href="skype:keni__1?chat"><img src="images/orange-skype.png" alt="email" class="contimg"><span class="contacts-span">keni__1</span></a></li>
         		</ul>
         	</div>
         	</section>
@@ -72,7 +73,7 @@
 
                 <div class="form">
                     <form action="">
-                        <label><input type="text" class="name" placeholder="Как к вам обращатся?"></label>
+                        <input type="text" class="name" placeholder="Как к вам обращатся?">
                         <div><input type="text" class="email" placeholder="Куда мне писать?"></div>
                         
                         <textarea name="" id="" cols="30" rows="10" class="textarea" class="message" placeholder="Кратко в чем суть"></textarea>
@@ -83,7 +84,7 @@
                         <span class="form-email-span">Email</span>
                         <span class="form-message-span">Сообщение</span>
                         <span class="form-capcha-span">Введите код, указанный на картинке</span>
-                        <img src="capcha.jpg" alt="capcha" class="capcha" />
+                        <img src="images/capcha.jpg" alt="capcha" class="capcha" />
                     </form>
                 </div>
 
