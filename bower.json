@@ -1,0 +1,25 @@
+{
+  "name": "project1",
+  "homepage": "https://github.com/abaha91/Project1",
+  "authors": [
+    "Gennady Abashkin <abashkin.91@mail.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "~3.7.3",
+    "normalize-css": "normalize.css#~3.0.3",
+    "jquery.placeholder": "~0.2.4",
+    "bPopup": "bpopup#~0.11.0",
+    "jquery": "~2.1.4"
+  }
+}
