@@ -11,35 +11,34 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 .clearfix:before, .clearfix:after {content: " "; display: table;}
 .clearfix:after {clear: both;}
 
-.head{width:1201px;margin:0 auto;position: relative;}
-.logo{width:120px;height:90px;float:left;}
+.head{margin:0 auto;position: relative;}
+.logo{width:120px;height:90px;float:left;margin-left:109px;}
 .logo img{margin-top:10px;}
-.content{width:960px;margin:0 auto;margin-top:36px;}
+.content{width:906px;margin:0 auto;margin-top:36px;}
 .left-content{width:250px;height:100%;}
 
 
 
 /*Социалки*/
-.soc-nets{width:192px;float:right;height:90px;float:right;padding-top:5px;position:relative;}
-.nets{padding:0;position:absolute;bottom:25px;margin:0;}
-.net{display:inline-block;margin-right:2px;}
+.soc-nets{width:262px;float:right;height:90px;float:right;padding-top:5px;position:relative;}
+.nets{padding:0;position:absolute;bottom:25px;margin:0 0 0 26px;}
+.net{display:inline-block;margin-right:5px;}
 .net:last-child{margin-right:0px;}
 
 
 
 
 /*Навигация слева*/
-.left-m{padding:0;margin:0;border-radius:4px;}
-.left-m-li{display:block;height:55px;background:url(../images/white.png);border:1px solid #c2c2c2;border-bottom:0;}
-.left-m-li:last-child{border-bottom:1px solid #c2c2c2;}
-.active{display:block;height:55px;background:url(../images/green.png);}
-.left-m-li:hover{display:block;height:55px;background:url(../images/grey.png);}
-.left-m li:first-child{border-radius:4px 4px 0 0;}
-.left-m li:last-child{border-radius:0 0 4px 4px;-webkit-box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);
+.main-m{padding:0;margin:0;border-radius:4px;}
+.main-m-li{display:block;min-height:23px;background:url(../images/white.png); background-size:cover;border:1px solid #c2c2c2;border-bottom:0;padding:14px 0 14px 30px;}
+.main-m-li:last-child{border-bottom:1px solid #c2c2c2;}
+.active{display:block;min-height:23px;background:url(../images/green.png);background-size:cover;padding:14px 0 14px 30px;}
+.main-m-li:hover{display:block;background:url(../images/grey.png);background-size:cover;}
+.main-m li:first-child{border-radius:4px 4px 0 0;}
+.main-m li:last-child{border-radius:0 0 4px 4px;-webkit-box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);
 -moz-box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);
 box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
-.left-m-span{line-height:3;margin-left:27px;}
-.left-m-a{font-size:18px;text-decoration:none;color:#727070;display:block;}
+.main-m-a{font-size:20px;text-decoration:none;color:#727070;display:block;}
 
 
 
@@ -60,14 +59,9 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
 
 
 /*Основные блоки*/
-.mt-span{margin-left:44px;line-height:2.4;}
-.main-info-body{border:1px solid #bebebe;padding-bottom:30px;height:100%;background:#f7f6f5;border-radius:0 0 4px 4px;display:table;padding-top:29px;width:100%;font-size:14px;}
-<<<<<<< HEAD
-.main-info-title{width:100%;border-left:1px solid #757575; border-right:1px solid #757575;min-height:56px;border-radius:4px 4px 0 0;background:url(../images/grey_bg.png) repeat-x;font-size:22px;color:#eeedec;}
-=======
-.main-info-title{background-repeat:repeat-x;width:100%;border-left:1px solid #757575; border-right:1px solid #757575;height:56px;border-radius:4px 4px 0 0;/*background-color:#989696*/;background:url(../images/grey_bg.png) repeat-x;font-size:22px;color:#eeedec;}
->>>>>>> 53492b158bfa2e296e5654c5371efa5fc986948a
-.top-space{margin-top:35px;}
+.main-info-body{border:1px solid #bebebe;height:100%;background:#f7f6f5;border-radius:0 0 4px 4px;display:table;padding:25px 0 25px 0;width:100%;font-size:14px;}
+.main-info-title{width:606px;border-left:1px solid #757575; border-right:1px solid #757575;min-height:36px;border-radius:4px 4px 0 0;background:url(../images/grey_bg.png); background-size:cover;font-size:24px;color:#eeedec;padding:9px 0 9px 44px;}
+.top-space{margin-top:32px;}
 
 
 /*футер*/
@@ -75,7 +69,7 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
 .wrapper{height: 100%;}
 .content-footer{box-sizing: border-box; min-height: 100%; padding-bottom: 90px;}
 .footer{width:1201px;margin:0 auto;height:60px;}
-.enter{width:90px;height:53px;margin-left:288px;display: inline-block;position:relative;}
+.enter{width:90px;height:53px;margin-left:313px;display: inline-block;position:relative;}
 .lock_unlock{position: absolute;left:5px;top:20px;}
 .vhod{position: absolute;color: #a3a3a3;font-size:13px;left:28px;top:19px;}
 .inauthor{color: #a3a3a3;font-size:13px;text-align:center;position:absolute;top:22px;font-family:"OpenSansRegular";width:510px;}

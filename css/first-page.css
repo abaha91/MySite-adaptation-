@@ -1,6 +1,6 @@
 /*Блок с фотографией*/
-.foto{width:230px;height:100%;float:left;}
-.main-info-p{margin:0 0 7px 0;padding:0;color:#727070;list-style-type: none;}
+.foto{width:230px;height:100%;float:left;margin:9px 0 0 5px;}
+.main-info-p{margin:0 0 9px 0;padding:0;color:#727070;list-style-type: none;}
 .my_foto_box{width:155px;height:155px;border-radius:92px;margin:0 auto;border:1px solid #e0dfde;}
 .foto_box{width:139px;height:139px;overflow:hidden;border-radius:92px;margin-top:7px;margin-left:7px;border:1px solid #e0dfde;}
 .my_foto{height:100%;margin-left:-25px;}
@@ -17,7 +17,7 @@
 /*Опыт работы, образование*/
 .rabota-educ{margin:0;}
 .tc{display:table-cell;top:0px;left:0px;vertical-align:middle;width:56px;}
-.rabota-educ-li{padding:10px 0 10px 0;display:block;min-height:53px;border-bottom:1px solid #dbdbda;width:93%;display:table;}
+.rabota-educ-li{padding:16px 0 16px 0;display:block;min-height:53px;border-bottom:1px solid #dbdbda;width:93%;display:table;}
 .rabota-educ-li:last-child{border:none;}
 .chemodan{float:left;margin-right:30px;display:inline-block;}
 .rab-place{color:#727070;margin:5px 0 0 0;}
