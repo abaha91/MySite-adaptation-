@@ -22,15 +22,16 @@ var myModule = (function() {
 
 
        //Объявляем переменные
-		var form = $(this);
-		    url = "add_project.php"
+		var form = $(this),
+		    url = "add_project.php",
 		    data = form.serialize();
+            
 
 		    console.log(data);
 
 
 			$.ajax({
-				url: '/path/to/file',
+				url: 'url',
 				type: 'POST',
 				dataType: 'json',
 				data: data,
