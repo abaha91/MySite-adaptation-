@@ -73,18 +73,50 @@
 
                 <div class="form">
                     <form action="">
-                        <input type="text" class="name" placeholder="Как к вам обращатся?">
-                        <div><input type="text" class="email" placeholder="Куда мне писать?"></div>
                         
-                        <textarea name="" id="" cols="30" rows="10" class="textarea" class="message" placeholder="Кратко в чем суть"></textarea>
-                        <input type="text" class="capcha-input" placeholder="Введите код">
-                        <input type="submit" class="submit" value="Отправить"/>
-                        <input type="reset" value="Очистить" class="clear" />
-                        <label class="form-name-span">Имя</label>
-                        <label class="form-email-span">Email</label>
-                        <label class="form-message-span">Сообщение</label>
-                        <label class="form-capcha-span">Введите код, указанный на картинке</label>
+                     <div class="name-email">     
+                        <div class="form-name-box">
+                        <label class="form-name-span" for="name-input">Имя</label>
+                        <input type="text" class="name" placeholder="Как к вам обращатся?" id="name-input">
+                        </div>
+
+                        <div class="form-email-box">
+                        <label class="form-email-span" for="email-input">Email</label>
+                        <input type="text" class="email" placeholder="Куда мне писать?" id="email-input">
+                        </div>
+                        </div> 
+                        
+                        <div class="textarea-box">
+                        <label class="form-message-span" for="message-input">Сообщение</label>
+                        <textarea class="textarea" class="message" placeholder="Кратко в чем суть" id="message-input"></textarea>
+                        </div>
+
+                        
+                        <div class="capcha-box">
+                        <div class="capcha-label">
+                        <label class="form-capcha-span" for="capcha-input">Введите код, указанный на картинке</label></div>
+                        <div class="capcha-img">
                         <img src="images/capcha.jpg" alt="capcha" class="capcha" />
+                        </div>
+
+
+                        <div class="capcha-input-box">
+                        <input type="text" class="capcha-input" placeholder="Введите код" id="capcha-input"></div>
+                        </div>
+
+                        <div class="buttons">
+                        <div class="button-submit-box">
+                        <input type="submit" class="submit" value="Отправить"/>
+                        </div>
+                        <div class="button-clear-box">
+                        <input type="reset" value="Очистить" class="clear" />
+                        </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
                     </form>
                 </div>
 

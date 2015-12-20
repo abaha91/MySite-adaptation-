@@ -1,20 +1,31 @@
 /*Страница3 форма*/
 .form{width:404px; margin:0 auto;position:relative;height:733px;}
-.form input,.form label,.form img,textarea{position:absolute;font-size:14px;outline:none;}
-.name, .email, .capcha-input{}
-.form-name-span{top:7px;left:0px;font-family:"OpenSansRegular";color:#727070;}
-.form-email-span{top:7px;left:210px;font-family:"OpenSansRegular";color:#727070;}
-.name{color:#c7c6c6;font-family:"OpenSansLight";width:182px;border-radius:5px;height:40px;border:1px solid #d6d5d3;top:30px;background-color:inherit;padding-left:10px;}
-.email{color:#c7c6c6;font-family:"OpenSansLight";width:182px;border-radius:5px;height:40px;border:1px solid #d6d5d3;top:30px;left:210px;background-color:inherit;padding-left:10px;}
-.form-message-span{top:86px;font-family:"OpenSansRegular";color:#727070;}
-.textarea{color:#c7c6c6;font-family:"OpenSansLight";top:112px;width:399px;height:177px;background-color:inherit;border-radius:5px;border:1px solid #d6d5d3;padding-left:10px;}
-.form-capcha-span{top:308px;font-family:"OpenSansRegular";color:#727070;}
-.capcha{width:190px;top:334px;border-radius:5px;border:1px solid #d6d5d3;}
-.submit{top:445px;left:31px;width:122px;height:39px;color:#1e7465;background:url(../images/submit_bg.jpg) repeat-x;border-radius:5px;border:1px solid #d6d5d3;}
+.form input,.form label,.form img,textarea{font-size:14px;outline:none;display:block;}
+label{margin-bottom:4px;}
+.name-email{height:70px;margin-top:9px;}
+.form-name-box{float:left;}
+.form-email-box{float:right;}
+.textarea-box{margin-top:10px;}
+.capcha-box{height:100px;margin-top:16px;}
+.capcha-label{margin-bottom:5px;}
+.capcha-img{float:left;}
+.capcha-input-box{float:right;}
+.buttons{margin-top:36px;height:50px;}
+.button-submit-box{float:left;}
+.button-clear-box{float:right;}
+.form-name-span{font-family:"OpenSansRegular";color:#727070;}
+.form-email-span{font-family:"OpenSansRegular";color:#727070;}
+.name{color:#c7c6c6;font-family:"OpenSansLight";width:182px;border-radius:5px;height:40px;border:1px solid #d6d5d3;background-color:inherit;padding-left:10px;}
+.email{color:#c7c6c6;font-family:"OpenSansLight";width:182px;border-radius:5px;height:40px;border:1px solid #d6d5d3;background-color:inherit;padding-left:10px;}
+.form-message-span{font-family:"OpenSansRegular";color:#727070;}
+.textarea{color:#c7c6c6;font-family:"OpenSansLight";width:390px;height:177px;background-color:inherit;border-radius:5px;border:1px solid #d6d5d3;padding-left:10px;}
+.form-capcha-span{font-family:"OpenSansRegular";color:#727070;}
+.capcha{width:190px;border-radius:5px;border:1px solid #d6d5d3;}
+.submit{margin-left:30px;width:122px;height:39px;color:#1e7465;background:url(../images/submit_bg.jpg) repeat-x;border-radius:5px;border:1px solid #d6d5d3;}
 .submit:hover{background:url(../images/green_bg_hover_but.png) repeat-x;}
-.clear{text-align:center;top:445px;left:250px;width:122px;height:39px;color:#727070;border-radius: 5px;background:inherit;border:1px solid #d6d5d3;font-family: "OpenSansSemiBold";background:url(../images/clear-bg.jpg) repeat-x;}
+.clear{margin-right:30px;text-align:center;width:122px;height:39px;color:#727070;border-radius: 5px;background:inherit;border:1px solid #d6d5d3;font-family: "OpenSansSemiBold";background:url(../images/clear-bg.jpg) repeat-x;}
 .clear:hover{background:url(../images/clear-bg-hover.jpg) repeat-x;}
-.capcha-input{color:#c7c6c6;font-family:"OpenSansLight";padding-left:10px;width:180px;height:32px;border-radius:5px;top:354px;left:212px;background: inherit;border:1px solid #d6d5d3;}
+.capcha-input{margin-top:20px;color:#c7c6c6;font-family:"OpenSansLight";padding-left:10px;width:180px;height:32px;border-radius:5px;background: inherit;border:1px solid #d6d5d3;}
 .capcha-input, .name, .email, .textarea{-webkit-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 -moz-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}

@@ -1,4 +1,4 @@
-html,body{font-size:20px; font-family: "OpenSansSemiBold";height:100%;background: url(../images/background.png) no-repeat center center fixed;
+html,body{font-size:20px; font-family: "OpenSansSemibold";height:100%;background: url(../images/background.png) no-repeat center center fixed;
  -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -11,17 +11,17 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 .clearfix:before, .clearfix:after {content: " "; display: table;}
 .clearfix:after {clear: both;}
 
-.head{margin:0 auto;position: relative;}
-.logo{width:120px;height:90px;float:left;margin-left:109px;}
+.head{margin:0 auto;position: relative;width:1200px;}
+.logo{width:120px;height:90px;float:left;margin-left:9px;}
 .logo img{margin-top:10px;}
-.content{width:906px;margin:0 auto;margin-top:36px;}
+.content{width:960px;margin:0 auto;margin-top:36px;}
 .left-content{width:250px;height:100%;}
 
 
 
 /*Социалки*/
-.soc-nets{width:262px;float:right;height:90px;float:right;padding-top:5px;position:relative;}
-.nets{padding:0;position:absolute;bottom:25px;margin:0 0 0 26px;}
+.soc-nets{width:200px;float:right;height:90px;float:right;padding-top:5px;position:relative;margin-right:-7px;}
+.nets{padding:0;}
 .net{display:inline-block;margin-right:5px;}
 .net:last-child{margin-right:0px;}
 
@@ -30,9 +30,9 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 
 /*Навигация слева*/
 .main-m{padding:0;margin:0;border-radius:4px;}
-.main-m-li{display:block;min-height:23px;background:url(../images/white.png); background-size:cover;border:1px solid #c2c2c2;border-bottom:0;padding:14px 0 14px 30px;}
+.main-m-li{display:block;min-height:23px;background:url(../images/white.png); background-size:cover;border:1px solid #c2c2c2;border-bottom:0;padding:14px 15px 14px 30px;}
 .main-m-li:last-child{border-bottom:1px solid #c2c2c2;}
-.active{display:block;min-height:23px;background:url(../images/green.png);background-size:cover;padding:14px 0 14px 30px;}
+.active{display:block;min-height:23px;background:url(../images/green.png);background-size:cover;padding:14px 15px 14px 30px;}
 .main-m-li:hover{display:block;background:url(../images/grey.png);background-size:cover;}
 .main-m li:first-child{border-radius:4px 4px 0 0;}
 .main-m li:last-child{border-radius:0 0 4px 4px;-webkit-box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);

@@ -209,20 +209,44 @@
             </div>
 
 
+
             <div class="add_project" id="new_project_popup">
-              <form action="">
-                   <input type="text" class="project_name" placeholder="Введите название">
-                   <input type="text" class="project_img" placeholder="Загрузите изображение">
-                   <input type="text" class="project_url" placeholder="Добавьте ссылку">
-                   <textarea name="" id="" cols="30" rows="10" class="textarea_add_project" placeholder="Пара слов о вашем проекте"></textarea>
-                   <label class="project_name_span">Название проекта</label>
-                   <label class="project_img_span"> URL проекта</label>
-                   <label class="project_url_span">Картинка проекта</label>
-                   <label class="project_textarea_span">Описание</label>
-                   <input type="submit" class="project_but" />
+              <form class="bpopup_form">
+              <div class="bpopup_name">
+                   <span class="tooltip" style="left:-122px;"> Введите название</span>
+                   <label class="project_name_span" for="project_name_id">Название проекта</label>
+                   <input type="text" name="name" class="project_name" placeholder="Введите название" id="project_name_id" />
+              </div>
+
+                  
+
+                  <div class="bpopup-img-box"> 
+                  <span class="tooltip" style="left:-94px;">Изображение</span>
+                   <label class="project_img_span" for="project_img_id">Картинка проекта</label>
+                   <input type="text" name="email" class="project_img" placeholder="Загрузите изображение" id="project_img_id" />
                    <a href="" alt="" class="url_link"><img src="images/cloud_but.png" class="cloud_but" alt=""></a>
+                   </div>
+                  
+
+                  <div class="bpopup-url-box">
+                  <span class="tooltip" style="left:-119px;">Ссылка на проект</span>
+                   <label class="project_url_span" for="project_url_id">URL проекта</label>
+                   <input type="text" name="url" class="project_url" placeholder="Добавьте ссылку" id="project_url_id" />
+                   </div> 
+                   
+                   <div class="bpopup-message-box">
+                   <span class="tooltip" style="left:-122px;">Описание проекта</span>
+                   <label class="project_textarea_span" for="bpopup_textarea">Описание</label>
+                   <textarea cols="30" name="message" rows="10" class="textarea_add_project" placeholder="Пара слов о вашем проекте" id="bpopup_textarea"></textarea>
+                   </div>
+                   
+                   
+                   <input type="submit" name="submit" class="project_but" />
+                   
               </form>
             </div>
+
+          
         
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bPopup/jquery.bpopup.js"></script>
