@@ -15,10 +15,12 @@ var myModule = (function() {
 		ev.preventDefault();
 
 		var divPopup = $('.add_project'),
-		    form = divPopup.find('.bpopup_form');
+		    form = divPopup.find('.bpopup_form'),
+		    clear = '';
 		$('#new_project_popup').bPopup({
 		onClose: function() {
 			form.find('.tooltip').hide();
+			$('.bpopup_form').trigger('reset');
 		}
 		});
 
@@ -47,12 +49,31 @@ var myModule = (function() {
 			})
 			.done(function(ans) {
 				console.log(ans);
-				if (ans.status === 'success'){
+				if (ans.name_status === 'success'){
 					console.log(ans.text);
 				}else{
 					console.log(ans.text);
-					form.find('.tooltip').show();
+					form.find('.tool_name').show();
+				};
+				if (ans.img_status === 'success'){
+					console.log(ans.text);
+				}else{
+					console.log(ans.text);
+					form.find('.tool_img').show();
 				}
+				if (ans.url_status === 'success'){
+					console.log(ans.text);
+				}else{
+					console.log(ans.text);
+					form.find('.tool_url').show();
+				}
+				if (ans.message_status === 'success'){
+					console.log(ans.text);
+				}else{
+					console.log(ans.text);
+					form.find('.tool_message').show();
+				}
+
 			})
 			.fail(function() {
 				console.log("error");
