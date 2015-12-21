@@ -20,7 +20,6 @@ var myModule = (function() {
 		$('#new_project_popup').bPopup({
 		onClose: function() {
 			form.find('.tooltip').hide();
-			$('.bpopup_form').trigger('reset');
 		}
 		});
 
