@@ -23,7 +23,13 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 .soc-nets{width:200px;float:right;height:90px;float:right;padding-top:5px;position:relative;margin-right:-7px;}
 .nets{padding:0;}
 .net{display:inline-block;margin-right:5px;}
+i{position:relative;z-index:1;}
 .net:last-child{margin-right:0px;}
+.social_net_facebook{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 6px;z-index: 0;}
+.social_net_vk{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 68px;z-index: 0;}
+.social_net_twitter{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 113px;z-index: 0;}
+.social_net_git{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 170px;z-index: 0;}
+
 
 
 

@@ -3,10 +3,10 @@
 .form input,.form label,.form img,textarea{font-size:14px;outline:none;display:block;}
 label{margin-bottom:4px;}
 .name-email{height:70px;margin-top:9px;}
-.form-name-box{float:left;}
-.form-email-box{float:right;}
-.textarea-box{margin-top:10px;}
-.capcha-box{height:100px;margin-top:16px;}
+.form-name-box{float:left;position:relative;}
+.form-email-box{float:right;position:relative;}
+.textarea-box{margin-top:10px;position:relative;}
+.capcha-box{height:100px;margin-top:16px;position:relative;}
 .capcha-label{margin-bottom:5px;}
 .capcha-img{float:left;}
 .capcha-input-box{float:right;}
@@ -29,7 +29,10 @@ label{margin-bottom:4px;}
 .capcha-input, .name, .email, .textarea{-webkit-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 -moz-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}
-
+.tooltip{display:none;position:absolute;font-size:12px;font-family: "OpenSansSemibold"; color:#9a4e32; background:url(../images/tooltip_bg.png) repeat-x; border-radius:7px;height:22px; border:1px solid #d58063;padding:5px 10px 0 5px;left:-150px;}
+.tooltip:after{ content: "";display: block;width: 17px;height: 17px;background: url(../images/romb.png) 100%;position: absolute;top: 5px;right: -7px;}
+.tooltip-back{display:none;position:absolute;font-size:12px;font-family: "OpenSansSemibold"; color:#9a4e32; background:url(../images/tooltip_bg.png) repeat-x; border-radius:7px;height:22px; border:1px solid #d58063;padding:5px 10px 0 15px;left:210px;min-width:90px;}
+.tooltip-back:before{ content: "";display: block;width: 23px;height: 13px;background: url(../images/romb.png) 100%;position: absolute;top: 7px;left: -7px;}
 
 /*Общие стили для формы*/
 ::-webkit-input-placeholder {

@@ -1,6 +1,6 @@
 /*Страница с портфолио*/
 .all_my_works{display:table;margin:12px 25px;}
-.my_work{vertical-align:top;border-radius:5px;margin:0 15px 17px 16px;width:167px;min-height:122px;border:1px solid #c7c7c7;display:inline-block;-webkit-box-shadow: 0px 0px 1px 1px rgba(212,211,211,1);
+.my_work{vertical-align:top;border-radius:5px;margin:0 14px 17px 14px;width:167px;min-height:122px;border:1px solid #c7c7c7;display:inline-block;-webkit-box-shadow: 0px 0px 1px 1px rgba(212,211,211,1);
 -moz-box-shadow: 0px 0px 1px 1px rgba(212,211,211,1);
 box-shadow: 0px 0px 1px 1px rgba(212,211,211,1);}
 .my_work_img{position:relative;overflow:hidden;height:122px;border-radius:5px 5px 0 0;}
@@ -37,18 +37,23 @@ background:url(../images/polaroid.png) no-repeat; background-position:48% 35%;po
 box-shadow: 0px 1px 5px 0px rgba(102,102,102,1);display:none;}
 
 /*.bpopup_form{margin-top:10px;}*/
+.project_img{z-index:2;position:absolute;top:26px;left:14px;opacity:0;}
 .add_project label{font-size: 13px;color:#727070;margin-left:20px;}
 input, textarea{margin:0 auto;display:block;font-size: 12px;color:#c7c6c6;border-radius:4px;border:2px solid #e0ad9a;outline:none;}
-.project_name, .project_url, .project_img{width:313px;padding:11px 10px;}
-.textarea_add_project{width:311px;height:123px;padding:11px 10px;}
-.project_but{margin-top:15px;padding-right:12px;font-size:14px;width:124px;height:40px;color:#1e7465;background:url(../images/submit_bg.jpg) repeat-x;border-radius:5px;border:1px solid #d6d5d3;}
+.project_name, .project_url, .project_img{width:302px;padding:11px 10px;}
+.fake-img-input{font-family:"OpenSansLight";margin:0 auto;font-size: 12px;color:#c7c6c6;border-radius:4px;border:2px solid #e0ad9a;padding:11px 10px;height:17px;width:302px;}
+.textarea_add_project{margin-top:4px;width:302px;height:91px;padding:11px 10px;}
+.project_but{margin-top:12px;padding-right:12px;font-size:14px;width:124px;height:40px;color:#1e7465;background:url(../images/submit_bg.jpg) repeat-x;border-radius:5px;border:1px solid #d6d5d3;margin-right:126px;}
 .project_but:hover{background:url(../images/green_bg_hover_but.png) repeat-x;}
 .bpopup-img-box{position:relative;}
 .cloud_but{height:45px;}
-.url_link{display:block;position: absolute;right:13px;top:27px;}
+.bpopup_name{margin-top:21px;}
+.bpopup-url-box{margin-top:7px;}
+.url_link{z-index:0;display:block;position: absolute;right:19px;top:27px;}
 .bpopup_form div{position:relative;}
 .tooltip{display:none;position:absolute;font-size:12px;font-family: "OpenSansSemibold"; color:#9a4e32; background:url(../images/tooltip_bg.png) repeat-x; border-radius:7px;height:22px; border:1px solid #d58063;padding:5px 10px 0 5px;top:50%;left:-150px;}
 .tooltip:after{ content: "";display: block;width: 17px;height: 17px;background: url(../images/romb.png) 100%;position: absolute;top: 5px;right: -7px;}
+.popup_exit{position:absolute;top:5px;right:5px;}
 /*Общие стили для формы*/
 ::-webkit-input-placeholder {
 	font: 14px 'OpenSansLight', 'Arial', sans-serif;
