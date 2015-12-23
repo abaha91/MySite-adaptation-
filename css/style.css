@@ -22,12 +22,10 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 /*Социалки*/
 .soc-nets{width:200px;float:right;height:90px;float:right;padding-top:5px;position:relative;margin-right:-7px;}
 .nets{padding:0;}
-.net{display:inline-block;margin-right:5px;}
+.net{display:inline-block;margin-right:4px;}
 .net:last-child{margin-right:0px;}
-.social_net_facebook{color: #fff;font-size: 7px;}
-.social_net_vk{color: #fff;font-size: 7px;}
-.social_net_twitter{color: #fff;font-size: 7px;}
-.social_net_git{color: #fff;font-size: 7px;}
+
+
 
 
 
@@ -88,6 +86,9 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
     background-image: url(../images/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent:-9999px;
 }
 
 .sprite-facebook {

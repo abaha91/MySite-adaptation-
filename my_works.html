@@ -7,17 +7,25 @@
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/second-page.css">
+    <link rel="stylesheet" href="css/my-works.css">
     <link rel="icon" type="image/png" href="images/logo.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/logo.png" sizes="192x192">
     <link rel="icon" type="image/png" href="images/logo.png" sizes="96x96">
     <link rel="icon" type="image/png" href="images/logo.png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+    <script src="bower_components/jquery/jquery.js"></script>
+    
+    <!--[if IE 8]>
+    
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">    
     </script>
+    <style type="text/css">
+    .nets{margin-top: 0;}
+    .url_link{top:28px;}
+    </style>
+
     <![endif]-->
+    
 
 
 </head>
@@ -31,10 +39,10 @@
                </div>
                <div class="soc-nets">
                    <ul class="nets">
-                   <li class="net"><a href="https://www.facebook.com/" title="facebook"><i class="sprite sprite-facebook"></i></a></li>
-                    <li class="net"><a href="https://vk.com/tamdamdam" title="vk"><i class="sprite sprite-vk"></i></a></li>
-                    <li class="net"><a href="https://twitter.com/" title="twitter"><i class="sprite sprite-twitter"></i></a></li>
-                    <li class="net"><a href="https://github.com/abaha91" title="github"><i class="sprite sprite-github"></i></a></li>
+                   	<li class="net"><a href="https://www.facebook.com/" title="facebook" class="social_net_facebook"><i class="sprite sprite-facebook">facebook</i></a></li>
+                   	<li class="net"><a href="https://vk.com/tamdamdam" title="vk" class=""><i class="sprite sprite-vk">vkontakte</i></a></li>
+                   	<li class="net"><a href="https://twitter.com/" title="twitter" class=""><i class="sprite sprite-twitter">twitter</i></a></li>
+                   	<li class="net"><a href="https://github.com/abaha91" title="github" class=""><i class="sprite sprite-github">facebook</i></a></li>
                    </ul>
                </div>
                 
@@ -44,10 +52,10 @@
            <section class="menu-contacts">
             <nav class="main-menu">
                <ul class="main-menu-ul">
-                   <li class="main-menu-li"><a class="main-menu-a" href="index.html"><span class="main-menu-span">Обо мне</span></a></li>
-                   <li class="active"><a class="main-menu-a" href="my_works.html"><span class="main-menu-span">Мои работы</span></a></li>
-                   <li class="main-menu-li"><a class="main-menu-a" href="contact_me.html"><span class="main-m-span">Обратная связь</span></a></li>
-               </ul>
+        	   	   <li class="main-menu-li"><a class="main-menu-a" href="index.html"><span class="main-menu-span">Обо мне</span></a></li>
+        	   	   <li class="active"><a class="main-menu-a" href="my_works.html"><span class="main-menu-span">Мои работы</span></a></li>
+        	   	   <li class="main-menu-li"><a class="main-menu-a" href="contact_me.html"><span class="main-menu-span">Обратная связь</span></a></li>
+        	   </ul>
                 
             </nav>
             <div class="contacts">
@@ -216,7 +224,7 @@
               <div class="bpopup_name">
                    <span class="tooltip tool_name" style="left:-122px;"> Введите название</span>
                    <label class="project_name_span" for="project_name_id">Название проекта</label>
-                   <input type="text" name="name" class="project_name" placeholder="Введите название" id="project_name_id" />
+                   <input type="text" name="name" class="project_name" placeholder="Введите название" id="project_name_id"/>
               </div>
 
                   
@@ -224,8 +232,8 @@
                   <div class="bpopup-img-box"> 
                   <span class="tooltip tool_img" style="left:-94px;">Изображение</span>
                    <label class="project_img_span" for="project_img_id">Картинка проекта</label>
-                   <div class="fake-img-input"><span></span></div>
-                   <input type="file" value="" name="img" class="project_img" placeholder="Загрузите изображение" id="project_img_id" />
+                   <div class="fake-img-input"><input type="file" value="" name="img" class="project_img" placeholder="Загрузите изображение" id="project_img_id" /></div>
+                   
                    <a href="" alt="" class="url_link"><img src="images/cloud_but.png" class="cloud_but" alt="cloud"></a>
                    </div>
                   
@@ -250,8 +258,9 @@
 
           
         
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+
 <script src="bower_components/bPopup/jquery.bpopup.js"></script>
+<script type="text/javascript" src="bower_components/jquery.placeholder/jquery.placeholder.js"></script>  
 <script src="js/main.js"></script>
 </body>
 </html>

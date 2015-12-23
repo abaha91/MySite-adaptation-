@@ -43,7 +43,7 @@ var myModule = (function() {
 		$('.tooltip, .tooltip-back').hide();
 		ev.preventDefault();
 		var contactForm = $(this);
-		var url = '/project1/contact_form.php';
+		var url = 'contact_form.php';
 		var data = contactForm.serialize();
 		console.log(data);
 

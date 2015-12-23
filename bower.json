@@ -20,6 +20,6 @@
     "normalize-css": "normalize.css#~3.0.3",
     "jquery.placeholder": "~0.2.4",
     "bPopup": "bpopup#~0.11.0",
-    "jquery": "~2.1.4"
+    "jquery": "1.8"
   }
 }
