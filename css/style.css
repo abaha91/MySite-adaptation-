@@ -5,7 +5,7 @@ html,body{font-size:20px; font-family: "OpenSansSemibold";height:100%;background
 background-size: cover;}
 
 
-.header_box{width:100%;height:90px;background:url(../images/grey-header.jpg) repeat;border-bottom:7px solid white;-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+.header_box{margin-bottom:36px;width:100%;height:90px;background:url(../images/grey-header.jpg) repeat;border-bottom:7px solid white;-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 .clearfix:before, .clearfix:after {content: " "; display: table;}
@@ -14,7 +14,7 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 .head{margin:0 auto;position: relative;width:1200px;}
 .logo{width:120px;height:90px;float:left;margin-left:9px;}
 .logo img{margin-top:10px;}
-.content{width:960px;margin:0 auto;margin-top:36px;}
+.content{width:960px;margin:0 auto;}
 .menu-contacts{width:250px;height:100%;float:left;}
 
 
@@ -23,18 +23,18 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 .soc-nets{width:200px;float:right;height:90px;float:right;padding-top:5px;position:relative;margin-right:-7px;}
 .nets{padding:0;}
 .net{display:inline-block;margin-right:5px;}
-i{position:relative;z-index:1;}
 .net:last-child{margin-right:0px;}
-.social_net_facebook{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 6px;z-index: 0;}
-.social_net_vk{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 68px;z-index: 0;}
-.social_net_twitter{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 113px;z-index: 0;}
-.social_net_git{position: absolute;color: #fff;font-size: 7px;top: 40px;left: 170px;z-index: 0;}
+.social_net_facebook{color: #fff;font-size: 7px;}
+.social_net_vk{color: #fff;font-size: 7px;}
+.social_net_twitter{color: #fff;font-size: 7px;}
+.social_net_git{color: #fff;font-size: 7px;}
 
 
 
 
 
 /*Навигация слева*/
+.main-menu{margin-bottom:35px;}
 .main-menu-ul{padding:0;margin:0;border-radius:4px;}
 .main-menu-li{display:block;min-height:23px;background:url(../images/white.png); background-size:cover;border:1px solid #c2c2c2;border-bottom:0;padding:14px 15px 14px 30px;}
 .main-menu-li:last-child{border-bottom:1px solid #c2c2c2;}
@@ -49,7 +49,7 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
 
 
 /*Блок контактов*/
-.contacts{margin-top:35px;}
+.contacts{margin-bottom:35px;}
 .contacts-ul{list-style-type: none;margin:0;padding:0;}
 .cont-span{margin-left:30px;color:#d0982c;font-size:20px;}
 .contacts-title{height:41px;background:url(../images/orange.png) repeat-x;border-radius:4px 4px 0 0;line-height:2;}
@@ -65,9 +65,10 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
 
 
 /*Основные блоки*/
+.info-block{margin-bottom:32px;}
 .main-info-body{border:1px solid #bebebe;height:100%;background:#f7f6f5;border-radius:0 0 4px 4px;display:table;padding:25px 0 25px 0;width:100%;font-size:14px;}
 .main-info-title{width:606px;border-left:1px solid #757575; border-right:1px solid #757575;min-height:36px;border-radius:4px 4px 0 0;background:url(../images/grey_bg.png); background-size:cover;font-size:24px;color:#eeedec;padding:9px 0 9px 44px;}
-.top-space{margin-top:32px;}
+/*.top-space{margin-top:32px;}*/
 
 
 /*футер*/
