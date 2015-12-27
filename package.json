@@ -1,0 +1,25 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Как установить мой проект<br />\r git clone https://github.com/abaha91/Project1.git site <br />\r cd site <br />\r bower i <br />\r npm i <br />\r gulp <br />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abaha91/Project1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abaha91/Project1/issues"
+  },
+  "homepage": "https://github.com/abaha91/Project1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-live-server": "0.0.29",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-notify": "^2.2.0"
+  }
+}
