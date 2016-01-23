@@ -18,7 +18,7 @@ label{margin-bottom:4px;}
 .name{background:#f8f7f6;color:#c7c6c6;font-family:"OpenSansLight";width:182px;border-radius:5px;border:1px solid #d6d5d3;padding: 12px 0 11px 10px;}
 .email{background:#f8f7f6;color:#c7c6c6;font-family:"OpenSansLight";width:182px;border-radius:5px;border:1px solid #d6d5d3;padding: 12px 0 11px 10px;}
 .form-message-span{font-family:"OpenSansRegular";color:#727070;}
-.textarea{resize:none;background:#f8f7f6;color:#c7c6c6;font-family:"OpenSansLight";width:390px;height:166px;border-radius:5px;border:1px solid #d6d5d3;padding-left:10px;padding-top:5px;}
+.textarea_inp{resize:none;background:#f8f7f6;color:#c7c6c6;font-family:"OpenSansLight";width:390px;height:166px;border-radius:5px;border:1px solid #d6d5d3;padding-left:10px;padding-top:5px;}
 .form-capcha-span{font-family:"OpenSansRegular";color:#727070;}
 .capcha{width:190px;border-radius:5px;border:1px solid #d6d5d3;}
 .submit{margin-left:30px;width:122px;height:39px;color:#1e7465;background:url(../images/submit_bg.jpg) repeat-x;border-radius:5px;border:1px solid #d6d5d3;}
@@ -26,7 +26,7 @@ label{margin-bottom:4px;}
 .clear{margin-right:30px;text-align:center;width:122px;height:39px;color:#727070;border-radius: 5px;background:inherit;border:1px solid #d6d5d3;font-family: "OpenSansSemiBold";background:url(../images/clear-bg.jpg) repeat-x;}
 .clear:hover{background:url(../images/clear-bg-hover.jpg) repeat-x;}
 .capcha-input{background:#f8f7f6;margin-top:20px;color:#c7c6c6;font-family:"OpenSansLight";padding: 10px 0 10px 10px;width:180px;border-radius:5px;border:1px solid #d6d5d3;}
-.capcha-input, .name, .email, .textarea{-webkit-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
+.capcha-input, .name, .email, .textarea_inp{-webkit-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 -moz-box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);
 box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}
 .tooltip{display:none;position:absolute;font-size:12px;font-family: "OpenSansSemibold"; color:#9a4e32; background:url(../images/tooltip_bg.png) repeat-x; border-radius:7px;height:22px; border:1px solid #d58063;padding:5px 10px 0 5px;left:-150px;}
