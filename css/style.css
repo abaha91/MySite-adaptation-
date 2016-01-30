@@ -15,14 +15,17 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);}
 .logo{width:120px;height:90px;float:left;margin-left:9px;}
 .content{margin:0 auto;display:table;width:960px;}
 .menu-contacts{width:250px;height:100%;float:left;margin-right:20px;}
-
+.menu__contacts-bottom{display:none;}
 
 
 /*Социалки*/
-.soc-nets{width:232px;float:right;height:90px;float:right;padding-top:5px;position:relative;margin-right:-7px;}
+.soc-nets{float:right;height:90px;float:right;padding-top:5px;position:relative;margin-right:-7px;}
 .nets{padding:0;}
 .net{display:inline-block;margin-right:4px;}
+.net__button{display:none;margin-top:12px;}
 .net:last-child{margin-right:0px;}
+.soc__nets-bottom{display:none;}
+.nets_botom{margin:0 auto; padding:0;}
 
 
 
@@ -168,8 +171,6 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
     width: 25px;
     height: 21px;
     background-position: -5px -5px;
-    margin-bottom:11px;
-    display:none;
 }
 
 .sprite-navigation:hover {
@@ -178,6 +179,63 @@ box-shadow: 0px 3px 8px 0px rgba(213,207,150,1);}
     background-position: -40px -5px;
     
 }
+
+.sprite3 {
+    background-image: url(../images/spritesheet3.png);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent:-9999px;
+    margin:0 auto;
+}
+
+.sprite-facebook-bottom {
+    width: 73px;
+    height: 75px;
+    background-position: -5px -5px;
+}
+
+.sprite-facebook-bottom:hover {
+    width: 73px;
+    height: 75px;
+    background-position: -88px -5px;
+}
+
+.sprite-github-bottom {
+    width: 73px;
+    height: 75px;
+    background-position: -5px -90px;
+}
+
+.sprite-github-bottom:hover {
+    width: 73px;
+    height: 75px;
+    background-position: -88px -90px;
+}
+
+.sprite-twitter-bottom {
+    width: 73px;
+    height: 75px;
+    background-position: -171px -5px;
+}
+
+.sprite-twitter-bottom:hover {
+    width: 73px;
+    height: 75px;
+    background-position: -171px -90px;
+}
+
+.sprite-vk-bottom {
+    width: 73px;
+    height: 75px;
+    background-position: -5px -175px;
+}
+
+.sprite-vk-bottom:hover {
+    width: 73px;
+    height: 75px;
+    background-position: -88px -175px;
+}
+
 
 
 
