@@ -28,17 +28,17 @@
 	.menu__contacts-bottom{float:none;;margin:0 auto;display:block;}
 	.net__contact{display:none;}
 	.soc__nets-bottom{display:block;}
-	.soc__nets-bottom .net__contact{display:inline-block;width:24%;margin:0;padding:0;}
+	.soc__nets-bottom .net__contact{display:inline-block;width:25%;margin:0 -2px;padding:0;}
 	.nets__bottom{margin:0;padding:0;}
 }
 
 @media only screen and (max-width : 600px){
 	.inauthor{font-size:9px;}
+	.author{width:100%;float:none;}
+	.enter_lock_unlock{display:none;}
+	.exit-li{display:block;}
 }
 
-@media only screen and (max-width : 500px){
-	.soc__nets-bottom .net__contact{width:23%;}
-}
 
 
 
