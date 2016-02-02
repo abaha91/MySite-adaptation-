@@ -2,11 +2,11 @@
 .form{width:404px; margin:0 auto;position:relative;height:733px;}
 .form input,.form label,.form img,textarea{font-size:14px;outline:none;display:block;}
 label{margin-bottom:4px;}
-.name-email{height:70px;margin-top:9px;}
+.name-email{display:table;width:100%;margin-top:9px;}
 .form-name-box{float:left;position:relative;}
 .form-email-box{float:right;position:relative;}
 .textarea-box{margin-top:10px;position:relative;}
-.capcha-box{height:100px;margin-top:16px;position:relative;}
+.capcha-box{display:table;width:100%;margin-top:16px;position:relative;}
 .capcha-label{margin-bottom:5px;}
 .capcha-img{float:left;}
 .capcha-input-box{float:right;}
