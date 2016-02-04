@@ -14,22 +14,26 @@
 @media only screen and (max-width : 700px){
 	body{min-width:400px;}
 	.main-content{float:none;}
-	.menu-contacts{width:90%;margin:0 auto;display:none;}
+	.menu-contacts{width:90%;margin:0 auto;}
 	.main-content{width:90%;margin:0 auto;}
 	.main-info-title{width:95%;padding:9px 10px;}
 	.foto{margin:0 auto;float:none;}
+	.main-menu-li{padding:14px 20px 14px 30px}
 	.main-info-b{margin:0 auto;width:320px;max-width:410px;}
 	.main-info-body{padding:10px;width:95%;}
 	.header_box{margin-bottom:0;}
 	.contacts{margin-top:25px;}
-	.main-menu{display:none;}
+	.main-menu{display:none;position:absolute;z-index:10;right:10px;top:80px;}
 	.net__button{display:inline-block;float:right;margin-right:5px;margin-left:13px;}
 	.header_box{margin-bottom:25px;}
-	.menu__contacts-bottom{float:none;;margin:0 auto;display:block;}
+	.menu__contacts-bottom{float:none;margin:0 auto;display:block;}
 	.net__contact{display:none;}
 	.soc__nets-bottom{display:block;}
 	.soc__nets-bottom .net__contact{display:inline-block;width:25%;margin:0 -2px;padding:0;}
 	.nets__bottom{margin:0;padding:0;}
+	.exit-li{display:block;}
+	.contacts_top{display:none;}
+
 
 
 	/*Страница портфолио*/
@@ -64,7 +68,18 @@
 	.form-name-box, .form-email-box, .textarea-box{display:block;width:90%;float:none;margin:0 auto;}
 	.name, .email, .textarea_inp{margin:0 auto;margin-bottom:4px;width:100%;}
 	.form-name-span, .form-email-span, .form-message-span{width:100%;}
+	.form{width:90%;}
+	.capcha{margin:0 auto;}
+	.capcha-label{text-align:center;}
+	.capcha-img{margin:0 auto;float:none;}
+	.capcha-input-box{float:none;margin-top:10px;}
+	.capcha-input{margin:0 auto;}
 
+
+}
+
+@media only screen and (min-width : 700px){
+	.main-menu{display:block !important;}
 }
 
 

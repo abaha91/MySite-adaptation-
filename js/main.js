@@ -16,21 +16,14 @@ var myModule = (function() {
 		$('input.project_img').on('keydown', _removeTooltipImg);
 		$('input.project_url').on('keydown', _removeTooltipUrl);
 		$('.textarea_add_project').on('keydown', _removeTooltipMessage);
-		$('.popup_exit').on('click' , _popExit)
+		$('.menu-link').on('click', _showHideNav);
+
+
 
 
 	};
 
 
-	var _popExit = function(ev){
-        ev.preventDefault
-		$("#new_project_popup").closePopup();
-		
-        
-
-
-		
-	};
 
 		var _removeTooltipName = function(){
 			$('.tool_name').hide();
@@ -48,6 +41,7 @@ var myModule = (function() {
 			$('.tool_message').hide();
 			$('.textarea_add_project').css('border','');
 		};
+
 
 	var _showModal = function(ev) {
 		console.log('вызов модального окна');
@@ -145,16 +139,16 @@ var myModule = (function() {
         $('.fake-img-input span').text(fileName)
         console.log($('.fake-img-input span').text());
 
-        
-
-
-        
-
-
-
-
-
 	};
+
+	// Открыть, скрыть навигацию
+
+	var _showHideNav = function(e){
+		e.preventDefault();
+		$('.main-menu').slideToggle();
+	};
+
+
 
 
 	
