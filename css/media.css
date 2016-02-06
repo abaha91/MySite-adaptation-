@@ -7,6 +7,7 @@
 	.menu-contacts{float:none;}
 	.info-block{float:none;}
 	.menu-contacts{width:100%;}
+	.main-info-body{padding:0;}
 
 
 }
@@ -16,11 +17,10 @@
 	.main-content{float:none;}
 	.menu-contacts{width:90%;margin:0 auto;}
 	.main-content{width:90%;margin:0 auto;}
-	.main-info-title{width:95%;padding:9px 10px;}
+	.main-info-title{padding:9px 10px;}
 	.foto{margin:0 auto;float:none;}
 	.main-menu-li{padding:14px 20px 14px 30px}
-	.main-info-b{margin:0 auto;width:320px;max-width:410px;}
-	.main-info-body{padding:10px;width:95%;}
+	.main-info-b{margin:0 auto;width:90%;max-width:410px;}
 	.header_box{margin-bottom:0;}
 	.contacts{margin-top:25px;}
 	.main-menu{display:none;position:absolute;z-index:10;right:10px;top:80px;}
@@ -80,6 +80,23 @@
 
 @media only screen and (min-width : 700px){
 	.main-menu{display:block !important;}
+}
+
+
+@media only screen and (max-width : 350px){
+	body{min-width:320px;}
+	.mt-span{font-size:21px;}
+	.logo{width:200px;height:60px;margin-top:14px;}
+	.head{min-width:280px;}
+	.author{width:90%;line-height:0.7;text-align:center;}
+	.new{height:160px;}
+	.form-link{padding-top:38px;}
+	.button-submit-box, .button-clear-box{width:50%;box-sizing:border-box;}
+	.clear, .submit{width:100%;margin:0;}
+	.buttons{margin:36px auto;width:95%;}
+	.skills{margin:0;}
+
+
 }
 
 

@@ -10,7 +10,7 @@ label{margin-bottom:4px;}
 .capcha-label{margin-bottom:5px;}
 .capcha-img{float:left;}
 .capcha-input-box{float:right;}
-.buttons{margin-top:36px;height:50px;}
+.buttons{margin-top:36px;height:50px;display:table;width:100%;}
 .button-submit-box{float:left;}
 .button-clear-box{float:right;}
 .form-name-span{font-family:"OpenSansRegular";color:#727070;}
