@@ -1,4 +1,4 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru-RU">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,6 @@
     <link rel="icon" type="image/png" href="images/logo.png" sizes="96x96">
     <link rel="icon" type="image/png" href="images/logo.png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="bower_components/jquery/jquery.js"></script>
     
     <!--[if IE 8]>
     
@@ -176,11 +175,11 @@
 
             <div class="add_project" id="new_project_popup">
             <a class="b-close"><img src="images/pop_exit.png" alt="popup_exit" class="popup_exit"></a>
-              <form class="bpopup_form">
+              <form class="bpopup_form" method="POST" id="bpopup_back-form">
               <div class="bpopup_name">
                    <span class="tooltip tool_name" style="left:-122px;"> Введите название</span>
                    <label class="project_name_span" for="project_name_id">Название проекта</label>
-                   <input type="text" name="name" class="project_name" placeholder="Введите название" id="project_name_id"/>
+                   <input type="text" name="name_bpopup" class="project_name" placeholder="Введите название" id="project_name_id"/>
               </div>
 
                   
@@ -188,7 +187,7 @@
                   <div class="bpopup-img-box"> 
                   <span class="tooltip tool_img" style="left:-94px;">Изображение</span>
                    <label class="project_img_span" for="project_img_id">Картинка проекта</label>
-                   <div class="fake-img-input"><input type="file" name="img" class="project_img" placeholder="Загрузите изображение" id="project_img_id" /></div>
+                   <div class="fake-img-input"><input type="file" name="img_bpopup" class="project_img" placeholder="Загрузите изображение" id="project_img_id" /></div>
                    
                    <a href="#" class="url_link"><img src="images/cloud_but.png" class="cloud_but" alt="cloud"></a>
                    </div>
@@ -197,13 +196,13 @@
                   <div class="bpopup-url-box">
                   <span class="tooltip tool_url" style="left:-119px;">Ссылка на проект</span>
                    <label class="project_url_span" for="project_url_id">URL проекта</label>
-                   <input type="text" name="url" class="project_url" placeholder="Добавьте ссылку" id="project_url_id" />
+                   <input type="text" name="url_bpopup" class="project_url" placeholder="Добавьте ссылку" id="project_url_id" />
                    </div> 
                    
                    <div class="bpopup-message-box">
                    <span class="tooltip tool_message" style="left:-122px;">Описание проекта</span>
                    <label class="project_textarea_span" for="bpopup_textarea">Описание</label>
-                   <textarea cols="30" name="message" rows="10" class="textarea_add_project" placeholder="Пара слов о вашем проекте" id="bpopup_textarea"></textarea>
+                   <textarea cols="30" name="message_bpopup" rows="10" class="textarea_add_project" placeholder="Пара слов о вашем проекте" id="bpopup_textarea"></textarea>
                    </div>
                    
                    
@@ -214,9 +213,9 @@
 
           
         
-
+<script src="bower_components/jquery/jquery.min.js"></script>
 <script src="bower_components/bPopup/jquery.bpopup.js"></script>
-<script type="text/javascript" src="bower_components/jquery.placeholder/jquery.placeholder.js"></script>  
+<script type="text/javascript" src="bower_components/jquery.placeholder/jquery.placeholder.js"></script> 
 <script src="js/main.js"></script>
 </body>
 </html>
