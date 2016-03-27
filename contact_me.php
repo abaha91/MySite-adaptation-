@@ -6,8 +6,9 @@ if (array_key_exists('message', $_POST)) {
    $message = "<b>Имя:</b> ".$_POST['name']."<br /><b>Email:</b> ".$_POST['email']."<br /><b>IP:</b> ".$_SERVER['REMOTE_ADDR']."<br /><b>Сообщение:</b> ".$_POST['message'];
    $headers = 'Content-type: text/html; charset="utf-8"';
    $headers .= "MIME-Version: 1.0\r\n";
-   $headers .= "Date: ". date('D, d M Y h:i:s O') ."\r\n";
-   mail($to, $subject, $message, $headers);
-   echo $_POST['name'];
+   $headers .= "From:" . $_POST['name'] . ' <' . $_POST['email'] . '>' . "\r\n";
+   mail($to, $subject, $message, $headers, $from);
+   echo $_POST['name'];   
 }
+
 ?>
