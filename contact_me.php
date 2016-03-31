@@ -9,6 +9,6 @@ if (array_key_exists('message', $_POST)) {
    $headers .= "From:" . $_POST['name'] . ' <' . $_POST['email'] . '>' . "\r\n";
    mail($to, $subject, $message, $headers, $from);
    echo $_POST['name'];   
-}
+   }
 
 ?>

@@ -82,3 +82,19 @@ box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}
 	font-size:90%;
 }
 
+.mail-error{
+	position:fixed;
+	background-color:red;
+	opacity:0.8;text-align:center;
+	padding:15px 50px;
+	top:150px;
+	left:0;
+	right:0;
+	color:#fff;
+	display:none;
+	}
+	
+.mail-error-text{
+	font-size:90%;
+}
+
