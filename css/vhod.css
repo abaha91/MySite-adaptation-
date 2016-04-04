@@ -1,0 +1,159 @@
+.vhod-inner{
+	margin:0 auto;
+	width:330px;
+	height:235px;
+	border:1px solid #9c9c9c;
+	padding-top:40px;
+	background-color:#f6f5f4;
+	border-radius:4px;
+	position:relative;
+-webkit-box-shadow: -1px 6px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 6px 25px -4px rgba(0,0,0,0.75);
+box-shadow: -1px 6px 25px -4px rgba(0,0,0,0.75);
+}
+
+.autorization_text{
+	position:absolute;
+	top:-21px;
+	color:#727070;
+	font-family: 'OpenSansRegular';
+	font-size:15px;
+
+}
+
+.vhod_text{
+	width:170px;
+	height:37px;
+	border:1px solid #9c9c9c;
+	margin:0 auto;
+	display:block;
+	margin-bottom:25px;
+	border-radius:4px;
+	outline:none;
+	padding-left:55px;
+	color:#727070;
+	font-size:13px;
+}
+
+.text-box{
+	position:relative;
+	width:225px;
+	margin:0 auto;
+}
+
+.vhod_text-logo{
+	width:50px;
+	height:42px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.vhod__text-logo-img{
+	display:inline-block;
+	margin:13px 0 0 11px;
+
+}
+
+.vhod_text-logo:after{
+	content:url(../images/border_vhod.png);
+	position:absolute;
+	right:0px;
+}
+
+.radio_vhod{
+	width:17px;
+	height:17px;
+	color:green;
+}
+
+.checkbox_box{
+	width:225px;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:5px;
+	height:25px;
+}
+
+.checkbox_box input[type="checkbox"]{
+	display:none;
+	
+}
+
+.checkbox__vhod-label{
+	font-family: 'OpenSansRegular';
+	color:#727070;
+	font-size:16px;
+	top:2px;
+	left:25px;
+	position:absolute;
+}
+
+.checkbox__vhod-label:before{
+	content:"";
+	display:inline-block;
+	height:17px;
+	width:17px;
+	border:2px solid #727070;
+	border-radius:2px;
+	position:absolute;
+	left:-26px;
+}
+
+input[type="checkbox"]:checked + .checkbox__vhod-label:before{
+	background:url(../images/green_bird.png) no-repeat center;
+	-moz-background-size: 85%;
+    -webkit-background-size: 85%;
+    -o-background-size: 85%; 
+    background-size: 85%;
+}
+
+
+
+
+
+.button_vhod{
+	margin:0 auto;
+	background:url(../images/submit_bg.jpg) repeat-x;
+	border-radius:4px;
+	width:150px;
+	height:40px;
+	display:block;
+	border:1px solid #d6d5d3;
+	color:#1e7465;
+
+}
+
+.button_vhod:hover{
+	background:url(../images/green_bg_hover_but.png) repeat-x;
+}
+
+::-webkit-input-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+}
+::-moz-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+}
+:-moz-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+	margin-top:11px;
+}
+:-ms-input-placeholder {
+	font: 14px 'OpenSansLight', 'Arial', sans-serif;
+	color: #c7c6c6;
+}
+:focus::-webkit-input-placeholder {
+	color: transparent
+}
+:focus::-moz-placeholder {
+	color: transparent
+}
+:focus:-moz-placeholder {
+	color: transparent
+}
+:focus:-ms-input-placeholder {
+	color: transparent
+}

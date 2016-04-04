@@ -37,14 +37,11 @@
 
 
 	/*Страница портфолио*/
-	.my_work{width:47%;margin:0 5px 17px 5px;}
+	.my_work{width:47%;margin:10px 5px 17px 5px;}
 	.my_work_img{height:160px;}
 	.work-image{min-height:160px;}
-	.new{width:47%;margin:0 5px 17px 5px;}
+	.new{width:47%;margin:10px 5px 17px 5px;}
 	.form-link{padding-top:30px}
-
-
-
 }
 
 @media only screen and (max-width : 600px){
@@ -60,13 +57,15 @@
 	.work-image{min-height:240px;}
 	.review_text{font-size:16px;}
 	.form-link{padding-top:60px}
+	.my_work{margin:10px 0px 17px 0px;}
+	.new{margin:10px 0px 17px 0px;}
 
 
 	/*Страница формы обратной связи*/
 
 	.name-email{display:block;width:100%;}
 	.form-name-box, .form-email-box, .textarea-box{display:block;width:90%;float:none;margin:0 auto;}
-	.name, .email, .textarea_inp{margin:0 auto;margin-bottom:4px;width:100%;}
+	.name, .email, .textarea_inp{margin:0 auto;margin-bottom:4px;width:90%;}
 	.form-name-span, .form-email-span, .form-message-span{width:100%;}
 	.form{width:90%;}
 	.capcha{margin:0 auto;}
@@ -74,6 +73,9 @@
 	.capcha-img{margin:0 auto;float:none;}
 	.capcha-input-box{float:none;margin-top:10px;}
 	.capcha-input{margin:0 auto;}
+	/*Страница входа*/
+	.vhod-inner{width:290px;}
+
 
 
 }
@@ -84,17 +86,27 @@
 
 
 @media only screen and (max-width : 350px){
-	body{min-width:320px;}
-	.mt-span{font-size:21px;}
+	body{min-width:280px;}
+	.mt-span{font-size:20px;}
 	.logo{width:200px;height:60px;margin-top:14px;}
 	.head{min-width:280px;}
-	.author{width:90%;line-height:0.7;text-align:center;}
+	.author{width:100%;line-height:0.7;text-align:center;padding:0;}
 	.new{height:160px;}
 	.form-link{padding-top:38px;}
 	.button-submit-box, .button-clear-box{width:50%;box-sizing:border-box;}
 	.clear, .submit{width:100%;margin:0;}
 	.buttons{margin:36px auto;width:95%;}
 	.skills{margin:0;}
+	/*Фикс адаптивности*/
+	.main-info-title, .main-info-body {width:100%;}
+	.contacts{width:100%;}
+	.head{margin:0;}
+	.soc__nets-bottom .net__contact{width:50%;}
+
+
+	/*Страница входа*/
+	.vhod-inner{width:250px;}
+
 
 
 }
