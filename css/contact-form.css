@@ -76,6 +76,10 @@ box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}
 	right:0;
 	color:#fff;
 	display:none;
+	width: 30%;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 3px solid black;
 }
 
 .mail-success-text{
@@ -92,6 +96,10 @@ box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}
 	right:0;
 	color:#fff;
 	display:none;
+	width: 30%;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 3px solid black;
 	}
 	
 .mail-error-text{
