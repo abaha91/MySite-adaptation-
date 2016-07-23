@@ -48,24 +48,24 @@
         <main class="content">
            <div class="vhod-inner">
            <span class="autorization_text">Авторизуйтесь</span>
-               <form action="GET" class="vhod_form">
+               <form class="vhod_form">
                <div class="text-box">
                     <div class="vhod_text-logo">
                         <img src="images/mail_vhod.png" alt="mail" class="vhod__text-logo-img">
                     </div>
-                   <input type="text" name="email_vhod" class="vhod_text" placeholder="Введите e-mail">
+                   <input type="text" name="email_vhod" class="vhod_text vhod-m" placeholder="Введите e-mail">
                 </div>
                 <div class="text-box">
                     <div class="vhod_text-logo">
                         <img src="images/key_vhod.png" alt="mail" class="vhod__text-logo-img">
                     </div>
-                   <input type="text" name="password_vhod" class="vhod_text" placeholder="Введите пароль">
+                   <input type="text" name="password_vhod" class="vhod_text vhod-p" placeholder="Введите пароль">
                 </div>
                    <div class="checkbox_box">
                    <input type="checkbox" name="radio_vhod" class="radio_vhod" id="checkbox-vhod">
                    <label for="checkbox-vhod" class="checkbox__vhod-label">Запомнить меня?</label>
                    </div>
-                   <input type="submit" class="button_vhod" value="Войти">
+                   <input type="submit" class="button_vhod" value="Войти" name="save_me">
                </form>
            </div>
 
@@ -96,6 +96,7 @@
 	
 	
 <script src="bower_components/jquery/jquery.min.js"></script>
+<script src="js/lk.js"></script>
 
 </body>
 </html>
