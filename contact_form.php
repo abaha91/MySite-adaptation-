@@ -2,7 +2,6 @@
 
 
 $contactEmail = $_POST['email'];
-$contactCapcha = $_POST['capcha'];
 $contactName = $_POST['name'];
 $contactMessage = $_POST['message'];
 $data = array();
@@ -14,16 +13,6 @@ if ($contactEmail === "") {
 	$data['email_status'] = 'success';
 	$data['text'] = 'Вы молодец, не забыли заполнить имя.'; 
 }
-
-
-if ($contactCapcha === "") {
-	$data['capcha_status'] = 'error';
-	$data['text'] = 'Заполните имя';
-}else{
-	$data['capcha_status'] = 'success';
-	$data['text'] = 'Вы молодец, не забыли заполнить картинку.'; 
-}
-
 
 if ($contactName === "") {
 	$data['name_status'] = 'error';

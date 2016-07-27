@@ -85,7 +85,7 @@ box-shadow: inset 1px 1px 5px -2px rgba(136,136,136,1);}
 	font-size:90%;
 }
 
-.mail-error{
+.mail-error, .error-tab{
 	position:fixed;
 	background-color:#f2a085;
 	text-align:center;

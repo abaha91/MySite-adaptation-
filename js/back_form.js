@@ -45,9 +45,7 @@ var myModule = (function() {
 		var contactForm = $(this);
 		var url = 'contact_form.php';
 		var data = contactForm.serialize();
-		console.log(data);
-
-
+		
 		$.ajax({
 			url: url,
 			type: 'POST',

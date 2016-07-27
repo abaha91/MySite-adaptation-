@@ -83,20 +83,20 @@
                         <div class="form-name-box">
                         <label class="form-name-span" for="name-input">Имя</label>
                         <span class="tooltip tool_name" style="left:-110px;top:30px;">Введите имя</span>
-                        <input type="text" class="name" placeholder="Как к вам обращатся?" id="name-input" name="name">
+                        <input type="text" class="inp name" placeholder="Как к вам обращатся?" id="name-input" name="name">
                         </div>
 
                         <div class="form-email-box">
                         <label class="form-email-span" for="email-input">Email</label>
                         <span class="tooltip-back tool_email" style="left:210px; top:29px;">Введите почту</span>
-                        <input type="text" class="email" placeholder="Куда мне писать?" id="email-input" name ="email">
+                        <input type="text" class="inp email" placeholder="Куда мне писать?" id="email-input" name ="email">
                         </div>
                         </div> 
                         
                         <div class="textarea-box">
                         <label class="form-message-span" for="message-input">Сообщение</label>
                         <span class="tooltip tool_message" style="left:-155px;top:90px">Введите сообщение</span>
-                        <textarea class="textarea_inp message" placeholder="Кратко в чем суть" id="message-input" name ="message"></textarea>
+                        <textarea class="inp textarea_inp message" placeholder="Кратко в чем суть" id="message-input" name ="message"></textarea>
                         </div>
 
                         
@@ -160,10 +160,13 @@
         	</div>
             <div class="mail-success" id="mail__success">
                 <span class="mail-success-text">Спасибо за сообщение<br />Я постараюсь вам ответить в ближайшее время =)</span>
-           </div>
+            </div>
 
-           <div class="mail-error" id="mail__error">
+            <div class="mail-error" id="mail__error">
                 <span class="mail-error-text">Пожалуйста, заполните все поля.</span>
+            </div>
+            <div class="error-tab" id="error-tab">
+                <span class="mail-error-text">Ошибка соединения с сервером</span>
            </div>
         	</main>
         	</div>
@@ -184,12 +187,7 @@
                 </footer>
             </div>
             </div>
-<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>  
-<script type="text/javascript" src="bower_components/jquery.placeholder/jquery.placeholder.js"></script>
-<script type="text/javascript" src="js/myPlaceholder.js"></script>
-<script type="text/javascript" src="js/back_form.js"></script>
-<script src="js/backForm.js"></script> 
-<script src="js/main.js"></script>
-
+<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/main-ref.js"></script>
 </body>
 </html>
