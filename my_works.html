@@ -32,23 +32,9 @@
 <body class="bg">
     <div class="wrapper">
     <div class="content-footer">
-        <div class="header_box">
-            <header class="head clearfix">
-               <div class="logo">
-                   <a href="/"><img src="images/logo2.png" alt="logotip" class="img_logo" /></a>
-               </div>
-               <div class="soc-nets">
-                   <ul class="nets">
-                    <li class="net net__contact"><a href="https://www.facebook.com/profile.php?id=100004816069348" title="facebook" class="social_net_facebook"><i class="sprite sprite-facebook">facebook</i></a></li>
-                    <li class="net net__contact"><a href="https://vk.com/tamdamdam" title="vk" class=""><i class="sprite sprite-vk">vkontakte</i></a></li>
-                    <li class="net net__contact"><a href="https://twitter.com/" title="twitter" class=""><i class="sprite sprite-twitter">twitter</i></a></li>
-                    <li class="net net__contact"><a href="https://github.com/abaha91" title="github" class=""><i class="sprite sprite-github">github</i></a></li>
-                    <li class="net net__button"><a href="#" title="nav" class="menu-link"><i class="sprite2 sprite-navigation"></i></a></li>
-                   </ul>
-               </div>
-                
-            </header>
-        </div>
+        <!--Angular component header-->
+        <header></header>
+
         <main class="content">
            <div class="menu-contacts">
             <nav class="main-menu">
@@ -268,5 +254,12 @@
 <script src="bower_components/bPopup/jquery.bpopup.js"></script>
 <script type="text/javascript" src="bower_components/jquery.placeholder/jquery.placeholder.js"></script> 
 <script src="js/main.js"></script>
+<script src="node_modules/zone.js/dist/zone.js"></script>
+<script src="node_modules/reflect-metadata/Reflect.js"></script>
+<script src="node_modules/systemjs/dist/system.src.js"></script>
+<script src="systemjs.config.js"></script>
+<script>
+    System.import('app').catch(function(err){ console.error(err); });
+</script>
 </body>
 </html>
