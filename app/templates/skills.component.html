@@ -5,7 +5,7 @@
         <li class="main-info-p"><span class="first">Мой город:</span><span class="second">{{ city }}</span></li>
         <li class="main-info-p"><span class="first">Моя специализация:</span><span class="second">{{ specialization }}</span></li>
         <li class="main-info-p"><span class="first">Ключевые навыки:</span>
-            <div class="skills" *ngIf="skills.length > 0">
+            <div class="skills" *ngIf="skills.length">
                 <div class="skill" *ngFor="let skill of skills">
                     <img src="images/left-pic.png" alt="left-pic" class="left-pic" />
                     <img src="images/right-pic.png" alt="right-pic" class="right-pic" />

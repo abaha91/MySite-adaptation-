@@ -19,13 +19,13 @@ const skills = [
 @Component ({
     moduleId : module.id,
     selector : 'ng-Skills',
-    templateUrl : '../html/skills.component.html'
+    templateUrl : '../templates/skills.component.html'
 })
 
 export class SkillsComponent {
-    name = "Абашкин Геннадий";
-    age = "26 лет";
-    city = "Санкт-Петербург";
-    specialization = "Front-end разработчик";
+    name: string = "Абашкин Геннадий";
+    age: string = "26 лет";
+    city: string = "Санкт-Петербург";
+    specialization: string = "Front-end разработчик";
     skills = skills;
 }
