@@ -1,0 +1,17 @@
+<div class="main-info-b">
+    <ul class="main_inform">
+        <li class="main-info-p"><span class="first">Меня зовут:</span><span class="second">{{ name }}</span></li>
+        <li class="main-info-p"><span class="first">Мой возраст:</span><span class="second">{{ age }}</span></li>
+        <li class="main-info-p"><span class="first">Мой город:</span><span class="second">{{ city }}</span></li>
+        <li class="main-info-p"><span class="first">Моя специализация:</span><span class="second">{{ specialization }}</span></li>
+        <li class="main-info-p"><span class="first">Ключевые навыки:</span>
+            <div class="skills" *ngIf="skills.length > 0">
+                <div class="skill" *ngFor="let skill of skills">
+                    <img src="images/left-pic.png" alt="left-pic" class="left-pic" />
+                    <img src="images/right-pic.png" alt="right-pic" class="right-pic" />
+                    <div class="skill_body"><p class="skill-p">{{ skill }}</p></div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
